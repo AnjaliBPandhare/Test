@@ -1,0 +1,68 @@
+﻿<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Angular Application</title>
+   
+    <!--************added Jquery version 3.4.1 referance in the page**********-->
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+
+    <!--************added Angular js version 1.7.9 referance in the page**********-->
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+
+    <!--************added Angular animate 1.7.9 referance in the page**********-->
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    
+
+    <!--************added Angular touch 1.7.9 referance in the page**********-->
+    <script src="Scripts/angular-touch.min.js"></script>
+    <script src="Scripts/angular-touch.js"></script>
+
+
+    <!--************added Angular route 1.7.9 referance in the page**********-->
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+    <!--************added Bootsrtap version 3.4.1 referance file in the page**********-->
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!--************added Bootsrtap version 2.5.0 referance file in the page**********-->
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+
+    <!--************added Bootsrtap version 2.5.0 referance file in the page**********-->
+    <script src="Scripts/angular-ui/ui-bootstrap.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <!--************added Project referance file in the page**********-->
+    <script src="app.modul.js"></script>
+    <script src="app.route.js"></script>
+
+    <!--************added Controller referance file in the page**********-->
+    <script src="Component/TestController.js"></script>
+    <script src="Component/ModelHandlerController.js"></script>
+
+    </head>
+<body>
+   
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="col-lg-1,navbar navbar-inverse" style="margin-top:30px;">
+                <ul class="nav navbar-nav pull-right" style="margin-right:500px;font-weight: bold;">
+                    <li class="active"></li>
+                    <li> <a href="#!test">Click Here to go on next page</a> </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div ng-view>
+        </div>
+    </div>
+   
+</body>
+ </html>

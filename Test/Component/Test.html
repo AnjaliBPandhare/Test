@@ -1,0 +1,39 @@
+﻿<style>
+.custom-modal{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        height: fit-content;
+        padding: 0 !important;
+    }
+    .modal-dialog{margin: 0;}
+    </style>
+<div class="container">
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Open Model button</button>
+    <!-- Modal -->
+    <div class="model fade custom-modal" id="myModal1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div><!--closing of model header main div-->
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div><!--closing of modelbody main div-->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div><!--closing of model-footer content main div-->
+
+                </div><!--closing of model content main div--> 
+            </div><!--closing of model dialog main div--> 
+
+        </div><!--closing of model fade main div--> 
+</div> <!--closing of container main div-->
+
+
+
+
